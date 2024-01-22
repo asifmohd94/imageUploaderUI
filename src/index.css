@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+  margin: 20px;
+}
+
+.upload-container {
+  margin-bottom: 20px;
+}
+
+button {
+  cursor: pointer;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  border-radius: 5px;
+}
+
+button:disabled {
+  background-color: #d3d3d3;
+  color: #808080;
+  cursor: not-allowed;
+}
+
+.result-container {
+  margin-top: 20px;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+h2 {
+  color: #333;
+}
+
+p {
+  margin: 0;
+}
